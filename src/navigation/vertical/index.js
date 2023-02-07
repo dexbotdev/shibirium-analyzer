@@ -60,17 +60,18 @@ const navigation = () => {
       title: 'Whitepaper',
       icon: MessageOutline,
       path: '/whitepaper'
-    },
-    {
-      title: 'Community',
-      icon: AccountOutline,
-      path: '/apps/calendar'
-    },
+    }, 
     {
       title: 'Roadmap',
       icon: CalendarBlankOutline,
       path: '/roadmap'
-    } 
+    },
+    {
+      title: 'Community',
+      externalLink: true,
+      openInNewTab: true,
+      path: ''
+    }
   ]
 }
 
