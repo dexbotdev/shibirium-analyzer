@@ -68,6 +68,7 @@ const navigation = () => {
     },
     {
       title: 'Community',
+      icon: HomeOutline, 
       externalLink: true,
       openInNewTab: true,
       path: ''

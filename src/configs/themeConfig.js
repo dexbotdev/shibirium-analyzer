@@ -3,12 +3,12 @@ import CircleOutline from 'mdi-material-ui/CircleOutline'
 
 const themeConfig = {
   // ** Layout Configs
-  templateName: 'JooM' /* App Name */,
+  templateName: 'CoinAnalyzer' /* App Name */,
   layout: 'vertical' /* vertical | horizontal */,
   mode: 'dark' /* light | dark */,
   direction: 'ltr' /* ltr | rtl */,
-  skin: 'bordered' /* default | bordered | semi-dark /*! Note: semi-dark value will only work for Vertical Layout */,
-  contentWidth: 'boxed' /* full | boxed */,
+  skin: 'default' /* default | bordered | semi-dark /*! Note: semi-dark value will only work for Vertical Layout */,
+  contentWidth: 'full' /* full | boxed */,
   footer: 'hidden' /* fixed | static | hidden */,
   // ** Routing Configs
   routingLoader: true /* true | false */,
