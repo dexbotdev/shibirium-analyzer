@@ -20,18 +20,18 @@ export const getHomeRoute = role => {
 
 const Home = () => {
   // ** Hooks
-  const auth = useAuth()
+ // const auth = useAuth()
   const router = useRouter()
   useEffect(() => {
     if (!router.isReady) {
       return
     }
-    if (auth.user && auth.user.role) {
-      const homeRoute = getHomeRoute(auth.user.role)
+ ////   if (auth.user && auth.user.role) {
+   //   const homeRoute = getHomeRoute(auth.user.role)
 
       // Redirect user to Home URL
-      router.replace(homeRoute)
-    } else
+   //   router.replace(homeRoute)
+   //// } else
     router.replace(getHomeRoute('home'))
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])

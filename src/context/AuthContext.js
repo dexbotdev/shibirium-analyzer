@@ -52,7 +52,7 @@ const AuthProvider = ({ children }) => {
         setLoading(false)
       }
     }
-    initAuth()
+    //initAuth()
   }, [])
 
   const handleLogin = (params, errorCallback) => {

@@ -123,14 +123,18 @@ const Dashboard = () => {
       .then((res) => res)
       .catch((err) => null);
 
-      if(dexscreener.data.pairs === null ){
+      
+      if(dexscreener === null ){
 
         alert('Token data not updated');
         return;
 
       }
  
-    if (dexscreener.data) {
+      console.log(dexscreener);
+      console.log(dexscreener.data); 
+      
+    if (dexscreener?.data) {
 
       const pusd = Number(dexscreener.data.pairs[0].priceUsd);
       const pnat = Number(dexscreener.data.pairs[0].priceNative)
