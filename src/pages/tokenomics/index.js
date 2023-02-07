@@ -22,7 +22,7 @@ import ChartjsHorizontalBarChart from 'src/views/charts/chartjs/ChartjsHorizonta
 
 // ** Third Party Styles Imports
 import 'react-datepicker/dist/react-datepicker.css'
-import Tokenomics from './Tokenomics'
+import Tokenomics from '../../views/Tokenomics'
 
 const TokenomicsPage = () => {
   
