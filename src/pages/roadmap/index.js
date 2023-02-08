@@ -32,7 +32,7 @@ const WhitepaperPdf = () => {
             <Grid container spacing={2} className='match-height' sx={{ m: 5 }}> 
                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.3.122/build/pdf.worker.min.js`}>
 
-                        <Viewer fileUrl="/Dark_Modern_Marketing_Plan_Infographic_5.pdf"
+                        <Viewer fileUrl="/roadmap.pdf"
                             renderPage={renderPage}
                             />
                     </Worker> 
