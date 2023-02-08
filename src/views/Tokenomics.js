@@ -97,7 +97,7 @@ const Tokenomics = () => {
                   variant='caption'
                   sx={{ mt: 0.75, fontWeight: 500, color: 'text.primary', alignSelf: 'flex-start' }}
                 >
-                  $
+                  {' '}
                 </Typography>
                 <Typography variant='h5' sx={{ fontWeight: 600 }}>
                   1,000,000
