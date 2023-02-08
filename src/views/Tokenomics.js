@@ -100,7 +100,7 @@ const Tokenomics = () => {
                   $
                 </Typography>
                 <Typography variant='h5' sx={{ fontWeight: 600 }}>
-                  1,000,000,000
+                  1,000,000
                 </Typography> 
               </Box>
             </Box>
