@@ -383,7 +383,7 @@ const Dashboard = () => {
               elevation={3}
             >
               <Toolbar>
-                <Grid container spacing={2} alignItems="center">
+                <Grid container spacing={5} alignItems="center">
                   <Grid item>
                     <SearchIcon color="inherit" sx={{ display: 'block' }} />
                   </Grid>
