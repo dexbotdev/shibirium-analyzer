@@ -17,11 +17,8 @@ const donutColors = {
 const TokenomicsChart = () => {
   const options = {
     legend: {
-      show: false,
-      position: 'right',
-      fontSize: '1rem',
-      fontFamily: 'Montserrat',
-      color:'white',
+      show: true,
+      position: 'bottom'
     },
     stroke: { width: 0 },
     labels: ['Presale', 'Liquidity', 'Development', 'Team','Marketing'],
@@ -44,15 +41,13 @@ const TokenomicsChart = () => {
             value: {
               fontSize: '1rem',
               fontFamily: 'Montserrat',
-              color:'white',
               formatter(val) {
                 return `${parseInt(val, 10)}`
               }
             },
             total: {
-              show: false,
-              fontSize: '1.5rem',
-              label: 'Operational',
+              show: true,
+              fontSize: '1.5rem', 
               formatter() {
                 return '31%'
               }
@@ -61,28 +56,37 @@ const TokenomicsChart = () => {
         }
       }
     },
-    responsive: [ 
+    responsive: [
+      {
+        breakpoint: 992,
+        options: {
+          chart: {
+            height: 380
+          },
+          legend: {
+            position: 'bottom'
+          }
+        }
+      },
       {
         breakpoint: 576,
         options: {
           chart: {
-            height: 400
+            height: 320
           },
           plotOptions: {
             pie: {
               donut: {
                 labels: {
-                  show: false,
+                  show: true,
                   name: {
-                    fontSize: '1.5rem',
-                    color:'white',
-                    fontWeight:'bolder'
+                    fontSize: '1.5rem'
                   },
                   value: {
-                    fontSize: '1rem',color:'success', fontWeight:'bolder'
+                    fontSize: '1rem'
                   },
                   total: {
-                    fontSize: '1.5rem',color:'success', fontWeight:'bolder'
+                    fontSize: '1.5rem'
                   }
                 }
               }
@@ -100,12 +104,12 @@ const TokenomicsChart = () => {
         title='Tokenomics'
         titleTypographyProps={{ variant: 'h6' }}
         subheader='Spending on various categories'
-        subheaderTypographyProps={{ variant: 'caption', sx: { color: 'white' } }}
+        subheaderTypographyProps={{ variant: 'caption', sx: { color: 'text.disabled' } }}
       />
       <CardContent
-        sx={{ color: 'white',
+        sx={{
           '& .apexcharts-canvas .apexcharts-pie .apexcharts-datalabel-label, & .apexcharts-canvas .apexcharts-pie .apexcharts-datalabel-value':
-            { fontSize: '1.7rem',  }
+            { fontSize: '1.2rem' }
         }}
       >
         <ReactApexcharts options={options} series={series} type='donut' height={400} />
