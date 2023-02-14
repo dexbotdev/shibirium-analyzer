@@ -157,7 +157,7 @@ const Dashboard = () => {
       const liquidity = Number(liquidityinQuote).toFixed(2)+dexscreener.data.pairs[0].quoteToken.symbol+' ($'+liquiditys.toFixed(2)/2+')';
       const pairCreatedAt = dexscreener.data.pairs[0].pairCreatedAt;
       const h1 = dexscreener.data.pairs[0].priceChange.h1;
-      const fdv = dexscreener?.data?.pairs[0]?.fdv;
+      const fdv = dexscreener?.data?.pairs[0]?.fdv.toLocaleString("en-US");;
       
       if (chainId === 'bsc') {
 
