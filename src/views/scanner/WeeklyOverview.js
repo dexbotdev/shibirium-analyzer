@@ -99,7 +99,8 @@ const WeeklyOverview = (props) => {
     </Box>
   </Box>)};
   return (
-    <Card>
+   <> 
+  <Card>
       <CardHeader
         title='Token Information'
         titleTypographyProps={{
@@ -118,7 +119,26 @@ const WeeklyOverview = (props) => {
                   <Item tag='LP Pair' value={props.data.dexId} />
                   <Item tag='Created At' value={props.data.pairCreatedAt} />
       </CardContent>
+
     </Card>
+    <Card  sx={{ mt:4 }}>
+      <CardHeader
+        title='Fully Diluted Value ($)'
+        titleTypographyProps={{
+          sx: { lineHeight: '2rem !important', letterSpacing: '0.15px !important' }
+        }}
+        action={
+          <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
+            <DotsVertical />
+          </IconButton>
+        }
+      />
+      <CardContent sx={{ '& .apexcharts-xcrosshairs.apexcharts-active': { opacity: 0 } }}>
+      <Item tag='FDV' value={props.data.fdv} /> 
+      </CardContent>
+
+    </Card>
+    </>
   )
 }
 

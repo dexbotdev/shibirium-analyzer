@@ -36,6 +36,11 @@ const navigation = () => {
       sectionTitle: 'Section'
     },
     {
+      title: 'Swap',
+      icon: GoogleCirclesExtended,
+      path: '/swap'
+    },,
+    {
       title: 'Tokenomics',
       icon: GoogleCirclesExtended,
       path: '/tokenomics'
