@@ -2,6 +2,8 @@
 import HomeOutline from 'mdi-material-ui/HomeOutline'
 import MessageOutline from 'mdi-material-ui/MessageOutline'
 import CalendarBlankOutline from 'mdi-material-ui/CalendarBlankOutline'
+import Abacus from 'mdi-material-ui/Abacus'
+import Unity from 'mdi-material-ui/Unity'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
 
 const navigation = () => {
@@ -37,8 +39,13 @@ const navigation = () => {
     },
     {
       title: 'Swap',
-      icon: GoogleCirclesExtended,
+      icon: Abacus,
       path: '/swap'
+    },
+    {
+      title: 'Partnerships',
+      icon: Unity,
+      path: '/partnerships'
     },,
     {
       title: 'Tokenomics',

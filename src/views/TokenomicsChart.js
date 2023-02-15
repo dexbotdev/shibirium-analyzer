@@ -49,7 +49,7 @@ const TokenomicsChart = () => {
               show: true,
               fontSize: '1.5rem', 
               formatter() {
-                return '31%'
+                return '100%'
               }
             }
           }
