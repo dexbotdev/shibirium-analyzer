@@ -5,6 +5,7 @@ import CalendarBlankOutline from 'mdi-material-ui/CalendarBlankOutline'
 import Abacus from 'mdi-material-ui/Abacus'
 import Unity from 'mdi-material-ui/Unity'
 import GoogleCirclesExtended from 'mdi-material-ui/GoogleCirclesExtended'
+import { Telegram } from '@mui/icons-material'
 
 const navigation = () => {
   return [
@@ -41,6 +42,13 @@ const navigation = () => {
       title: 'Swap',
       icon: Abacus,
       path: '/swap'
+    },
+    {
+      title: 'ConalyzerBot',
+      icon: Telegram,
+      externalLink: true,
+      openInNewTab: true,
+      path: 'https://t.me/coinlyzer'
     },
     {
       title: 'Partnerships',

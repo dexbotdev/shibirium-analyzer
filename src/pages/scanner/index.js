@@ -1,6 +1,6 @@
 /* eslint-disable */ 
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Paper from '@mui/material/Paper';
@@ -369,6 +369,10 @@ const Dashboard = () => {
   const handleInputChange = (event) => {
     setTokenAddress(event.target.value);
   };
+
+  useEffect(()=>{
+     getTokenDetails('0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82');
+  },[])
  
   return (
     <Grid>
