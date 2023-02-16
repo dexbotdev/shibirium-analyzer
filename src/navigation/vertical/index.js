@@ -48,7 +48,7 @@ const navigation = () => {
       icon: Telegram,
       externalLink: true,
       openInNewTab: true,
-      path: 'https://t.me/coinlyzer'
+      path: 'https://t.me/CoinaLyzerBot'
     },
     {
       title: 'Partnerships',
