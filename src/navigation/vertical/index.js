@@ -44,7 +44,7 @@ const navigation = () => {
       path: '/swap'
     },
     {
-      title: 'ConalyzerBot',
+      title: 'CoinaLyzerBot',
       icon: Telegram,
       externalLink: true,
       openInNewTab: true,
