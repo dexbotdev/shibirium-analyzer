@@ -75,7 +75,7 @@ const navigation = () => {
       icon: HomeOutline, 
       externalLink: true,
       openInNewTab: true,
-      path: ''
+      path: 'https://t.me/Coinalyzer'
     }
   ]
 }

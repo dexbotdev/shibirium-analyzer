@@ -195,8 +195,7 @@ const Dashboard = () => {
           .then((response)=>{
             if(response.data.status>0)verified=true;
 
-            console.log(response.data);
-            let honeyPotCheck = checkforHoneyPot(response.data.result)?'FAILED':'PASSED';
+             let honeyPotCheck = checkforHoneyPot(response.data.result)?'FAILED':'PASSED';
             
             if(buyGas === -1)honeyPotCheck='FAILED';
 
