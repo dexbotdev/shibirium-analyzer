@@ -32,7 +32,7 @@ const RoadMapPdf = () => {
             <Grid container spacing={2} className='match-height' sx={{ m: 5 }}> 
                     <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.3.122/build/pdf.worker.min.js`}>
 
-                        <Viewer fileUrl="/Purple_Gradient_Entertainment_Application_Presentation_2.pdf"
+                        <Viewer fileUrl="/whitepaper.pdf"
                             renderPage={renderPage}
                             />
                     </Worker> 
