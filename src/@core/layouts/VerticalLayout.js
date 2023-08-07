@@ -26,7 +26,7 @@ import DatePickerWrapper from 'src/@core/styles/libs/react-datepicker'
 const VerticalLayoutWrapper = styled('div')({
   height: '100%',
   display: 'flex',
-  background:'linear-gradient(35deg, #f2d50f 0%,#da0641 100%)'
+  background:'linear-gradient(-90deg, #FF5D41 0%, #FFAF7D 100%)'
 })
 
 const MainContentWrapper = styled(Box)({

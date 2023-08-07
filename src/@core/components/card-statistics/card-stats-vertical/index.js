@@ -16,7 +16,7 @@ const CardStatsVertical = props => {
   const { title, subtitle, color, icon, stats, trend, trendNumber } = props
 
   return (
-    <Card sx={{   position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
+    <Card sx={{   position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
       <CardContent>
         <Box sx={{ display: 'flex', marginBottom: 5.5, alignItems: 'flex-start', justifyContent: 'space-between' }}>
           <CustomAvatar color={color} sx={{ boxShadow: 3, marginRight: 4 }}>

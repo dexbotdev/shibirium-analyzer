@@ -137,10 +137,10 @@ const TotalEarning = (props) => {
     yaxis: { show: false }
   }
   return (
-    <Card sx={{   position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
+    <Card sx={{   position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
       <CardHeader
         title='Price Information'
-        titleTypographyProps={{ sx: { lineHeight: '0.6 !important', letterSpacing: '0.15px !important' } }}
+        titleTypographyProps={{ sx: { lineHeight: '0.6 !important', letterSpacing: '0.15px !important',color: 'white' , fontWeight:'800' } }}
         action={
           <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
             <DotsVertical />

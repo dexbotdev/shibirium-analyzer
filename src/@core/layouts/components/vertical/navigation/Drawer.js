@@ -82,7 +82,7 @@ const Drawer = props => {
       }
     } else {
       return {
-        background: 'linear-gradient(135deg, #f2d50f 0%,#da0641 100%)'
+        background: 'linear-gradient(-90deg, #FF5D41 0%, #FFAF7D 100%)'
       }
     }
   }

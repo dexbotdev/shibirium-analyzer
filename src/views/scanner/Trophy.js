@@ -27,7 +27,7 @@ const Trophy = (props) => {
   const imageSrc = theme.palette.mode === 'light' ? 'triangle-light.png' : 'triangle-dark.png'
 
   return (
-    <Card sx={{ position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
+    <Card sx={{ position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
       <CardContent>
         <Typography sx={{ color: 'white' }}>Information Unlocked! 🥳</Typography>
         <Typography variant='h5' sx={{ letterSpacing: '0.25px' }}>

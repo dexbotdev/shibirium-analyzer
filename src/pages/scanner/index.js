@@ -378,7 +378,7 @@ const Dashboard = () => {
       <Grid item xs={12} sx={{ paddingBottom: 4 }}>
         <Typography variant='h5' sx={{ color: 'white' }}>Scan Token</Typography>
       </Grid>
-      <Card sx={{  background:'linear-gradient(135deg, #F5515F 0%,#A1051D 100%)' }}>
+      <Card sx={{  background:'linear-gradient(180deg, #FF5D41 0%, #FFAF7D 100%)' }}>
         <CardContent>
           <Paper sx={{ maxWidth: '100%', margin: 'auto', overflow: 'hidden' }}>
             <AppBar

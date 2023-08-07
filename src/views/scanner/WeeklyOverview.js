@@ -100,7 +100,7 @@ const WeeklyOverview = (props) => {
   </Box>)};
   return (
    <> 
-  <Card sx={{ position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
+  <Card sx={{ position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
       <CardHeader
         title='Token Information'
         titleTypographyProps={{
@@ -121,7 +121,7 @@ const WeeklyOverview = (props) => {
       </CardContent>
 
     </Card>
-    <Card  sx={{ mt:4 , position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
+    <Card  sx={{ mt:4 , position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
       <CardHeader
         title='Fully Diluted Value ($)'
         titleTypographyProps={{
