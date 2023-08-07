@@ -37,18 +37,13 @@ const navigation = () => {
     },
     {
       sectionTitle: 'Section'
-    },
+    }, 
     {
-      title: 'Swap',
-      icon: Abacus,
-      path: '/swap'
-    },
-    {
-      title: 'CoinaLyzerBot',
+      title: 'ShibaLyzerBot',
       icon: Telegram,
       externalLink: true,
       openInNewTab: true,
-      path: 'https://t.me/CoinaLyzerBot'
+      path: 'https://t.me/ShibaLyzerBot'
     },
     {
       title: 'Partnerships',
@@ -75,7 +70,7 @@ const navigation = () => {
       icon: HomeOutline, 
       externalLink: true,
       openInNewTab: true,
-      path: 'https://t.me/Coinalyzer'
+      path: 'https://t.me/ShibaLyzer'
     }
   ]
 }

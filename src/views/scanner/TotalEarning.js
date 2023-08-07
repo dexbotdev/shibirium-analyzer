@@ -137,7 +137,7 @@ const TotalEarning = (props) => {
     yaxis: { show: false }
   }
   return (
-    <Card>
+    <Card sx={{   position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
       <CardHeader
         title='Price Information'
         titleTypographyProps={{ sx: { lineHeight: '0.6 !important', letterSpacing: '0.15px !important' } }}
@@ -153,7 +153,7 @@ const TotalEarning = (props) => {
             <ReactApexcharts type='line' height={98} options={options} series={series} />
          </Box>
  
-        <Typography variant='body2' sx={{ fontWeight: 600, textAlign: 'center', color: 'text.primary' }}>
+        <Typography variant='body2' sx={{ fontWeight: 600, textAlign: 'center', color: 'white' }}>
           Current Price {props.data.priceUsd}
         </Typography>
  
@@ -161,7 +161,7 @@ const TotalEarning = (props) => {
       <CardContent >
         <h5>Liquidity</h5> 
         <ReactApexcharts type='bar' height={98} options={optionsSessions} series={seriesSessions} />
-        <Typography variant='body2' sx={{ fontWeight: 600, textAlign: 'center', color: 'text.primary' }}>
+        <Typography variant='body2' sx={{ fontWeight: 600, textAlign: 'center', color: 'white' }}>
         {props.data.liquidity}
         </Typography>
       </CardContent>

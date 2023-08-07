@@ -3,7 +3,7 @@ import CircleOutline from 'mdi-material-ui/CircleOutline'
 
 const themeConfig = {
   // ** Layout Configs
-  templateName: 'CoinAlyzer' /* App Name */,
+  templateName: 'Shibalyzer' /* App Name */,
   layout: 'vertical' /* vertical | horizontal */,
   mode: 'dark' /* light | dark */,
   direction: 'ltr' /* ltr | rtl */,

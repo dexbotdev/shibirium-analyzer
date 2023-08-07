@@ -376,9 +376,9 @@ const Dashboard = () => {
   return (
     <Grid>
       <Grid item xs={12} sx={{ paddingBottom: 4 }}>
-        <Typography variant='h5'>Scan Token</Typography>
+        <Typography variant='h5' sx={{ color: 'white' }}>Scan Token</Typography>
       </Grid>
-      <Card>
+      <Card sx={{  background:'linear-gradient(135deg, #F5515F 0%,#A1051D 100%)' }}>
         <CardContent>
           <Paper sx={{ maxWidth: '100%', margin: 'auto', overflow: 'hidden' }}>
             <AppBar
@@ -386,7 +386,7 @@ const Dashboard = () => {
               color="default"
               elevation={3}
             >
-              <Toolbar>
+              <Toolbar  sx={  {background:'linear-gradient(135deg, #FF9800 0%,#FF9800 100%)' } }>
                 <Grid container spacing={5} alignItems="center">
                   <Grid item>
                     <SearchIcon color="inherit" sx={{ display: 'block' }} />
@@ -399,7 +399,7 @@ const Dashboard = () => {
                       onChange={handleInputChange}
                       InputProps={{
                         disableUnderline: true,
-                        sx: { fontSize: 'default' },
+                        sx: { fontSize: 'default',background:'linear-gradient(11deg, #00515F 0%,#A1051D 100%)'  },
                       }}
                       variant="standard"
                     />

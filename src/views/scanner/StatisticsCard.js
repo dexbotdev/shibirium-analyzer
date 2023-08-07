@@ -70,17 +70,17 @@ const renderStats = () => {
 
 const StatisticsCard = (props) => {
   return (
-    <Card>
+    <Card sx={{ position: 'relative', background:'linear-gradient(35deg, #F5515F 0%,#A1051D 100%)' }}>
       <CardHeader
         title='Security Checks'
         action={
-          <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'text.secondary' }}>
+          <IconButton size='small' aria-label='settings' className='card-more-options' sx={{ color: 'white' }}>
             <DotsVertical />
           </IconButton>
         }
         subheader={
           <Typography variant='body2'>
-            <Box component='span' sx={{ fontWeight: 600, color: 'cyan' }}>
+            <Box component='span' sx={{ fontWeight: 600, color: 'white' }}>
               Price  changed {props.data.h1} % in last  1 Hour
             </Box>
           </Typography>
@@ -104,7 +104,7 @@ const StatisticsCard = (props) => {
                   width: 44,
                   height: 44,
                   boxShadow: 3,
-                  color: 'common.white',
+                  color: 'white',
                   backgroundColor: `primary.main`
                 }}
               >
@@ -125,7 +125,7 @@ const StatisticsCard = (props) => {
                   width: 44,
                   height: 44,
                   boxShadow: 3,
-                  color: 'common.white',
+                  color: 'white',
                   backgroundColor: `success.main`
                 }}
               >
@@ -146,7 +146,7 @@ const StatisticsCard = (props) => {
                   width: 44,
                   height: 44,
                   boxShadow: 3,
-                  color: 'common.white',
+                  color: 'white',
                   backgroundColor: `danger.main`
                 }}
               >
@@ -167,7 +167,7 @@ const StatisticsCard = (props) => {
                   width: 44,
                   height: 44,
                   boxShadow: 3,
-                  color: 'common.white',
+                  color: 'white',
                   backgroundColor: `info.main`
                 }}
               >

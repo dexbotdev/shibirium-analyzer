@@ -67,7 +67,7 @@ const UserLayout = ({ children }) => {
                 hidden={hidden}
                 settings={settings}
                 saveSettings={saveSettings}
-                setShowBackdrop={props.setShowBackdrop}
+                setShowBackdrop={false}
                 toggleNavVisibility={props.toggleNavVisibility}
               />
             )
