@@ -386,7 +386,7 @@ const Dashboard = () => {
               color="default"
               elevation={3}
             >
-              <Toolbar  sx={  {background:'linear-gradient(135deg, #FF9800 0%,#FF9800 100%)' } }>
+              <Toolbar  sx={  {background:'linear-gradient(180deg, rgba(247, 238, 238, 0.25) 20%, rgba(38, 38, 38, 0.25) 100%)' } }>
                 <Grid container spacing={5} alignItems="center">
                   <Grid item>
                     <SearchIcon color="inherit" sx={{ display: 'block' }} />

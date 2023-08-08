@@ -26,7 +26,7 @@ import DatePickerWrapper from 'src/@core/styles/libs/react-datepicker'
 const VerticalLayoutWrapper = styled('div')({
   height: '100%',
   display: 'flex',
-  background:'linear-gradient(-90deg, #FF5D41 0%, #FFAF7D 100%)'
+  background:'linear-gradient(180deg, rgba(247, 238, 238, 0.25) 20%, rgba(38, 38, 38, 0.25) 100%)'
 })
 
 const MainContentWrapper = styled(Box)({
@@ -83,7 +83,7 @@ const VerticalLayout = props => {
           />
         )}
         <MainContentWrapper className='layout-content-wrapper'>
-          <AppBar setShowBackdrop={setShowBackdrop} toggleNavVisibility={toggleNavVisibility} {...props} />
+          {/* <AppBar setShowBackdrop={setShowBackdrop} toggleNavVisibility={toggleNavVisibility} {...props} /> */}
 
           <ContentWrapper
             className='layout-page-content'

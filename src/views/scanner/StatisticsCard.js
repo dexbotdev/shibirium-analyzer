@@ -70,7 +70,7 @@ const renderStats = () => {
 
 const StatisticsCard = (props) => {
   return (
-    <Card sx={{ position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
+    <Card sx={{ position: 'relative', background:'linear-gradient(180deg, rgba(247, 238, 238, 0.25) 0%, rgba(38, 38, 38, 0.25) 100%)' }}>
       <CardHeader
         title='Security Checks'
         action={

@@ -137,7 +137,7 @@ const TotalEarning = (props) => {
     yaxis: { show: false }
   }
   return (
-    <Card sx={{   position: 'relative', background:'linear-gradient(104deg, #FF6529 0%, #FFAE6F 100%)' }}>
+    <Card sx={{   position: 'relative', background:'linear-gradient(180deg, rgba(247, 238, 238, 0.25) 0%, rgba(38, 38, 38, 0.25) 100%)' }}>
       <CardHeader
         title='Price Information'
         titleTypographyProps={{ sx: { lineHeight: '0.6 !important', letterSpacing: '0.15px !important',color: 'white' , fontWeight:'800' } }}
