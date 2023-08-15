@@ -39,11 +39,11 @@ const navigation = () => {
       sectionTitle: 'Section'
     }, 
     {
-      title: 'ShibaLyzerBot',
+      title: 'ShibLyzerBot',
       icon: Telegram,
       externalLink: true,
       openInNewTab: true,
-      path: 'https://t.me/ShibaLyzerBot'
+      path: 'https://t.me/ShibLyzerBot'
     },
     {
       title: 'Partnerships',
@@ -70,7 +70,7 @@ const navigation = () => {
       icon: HomeOutline, 
       externalLink: true,
       openInNewTab: true,
-      path: 'https://t.me/ShibaLyzer'
+      path: 'https://t.me/ShibLyzer'
     }
   ]
 }
